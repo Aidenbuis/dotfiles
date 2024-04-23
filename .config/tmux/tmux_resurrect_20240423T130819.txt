@@ -1,0 +1,14 @@
+pane	4	1	1	:*	1	zsh	:/Users/aiden/make/make-starter/front-end	1	zsh	:/bin/zsh --login
+pane	aiii-telegram	1	1	:*	1	zsh	:/Users/aiden	1	zsh	:/bin/zsh --login
+pane	aiii-telegram	2	0	:	1	zsh	:/Users/aiden	1	zsh	:/bin/zsh --login
+pane	aiii-telegram	3	0	:-	1	zsh	:/Users/aiden	1	zsh	:/bin/zsh --login
+pane	make-starter-front	1	1	:##*	1	zsh	:/Users/aiden/make/make-starter/front-end	1	zsh	:/bin/zsh --login
+pane	make-starter-front	2	0	:##-	1	zsh	:/Users/aiden/make/make-starter/front-end	1	zsh	:/bin/zsh --login
+pane	make-starter-front	2	0	:##-	2	zsh	:/Users/aiden/make/make-starter/front-end/src/components	0	zsh	:/bin/zsh --login
+window	4	1	:zsh	1	:*	5916,112x32,0,0,17	:
+window	aiii-telegram	1	:👨‍💻 Back-End	1	:*	5917,112x32,0,0,18	off
+window	aiii-telegram	2	:⚡️ Back-End	0	:	5918,112x32,0,0,19	off
+window	aiii-telegram	3	:👨‍💻 Bot	0	:-	d911,112x32,0,0,22	off
+window	make-starter-front	1	:👨‍💻	1	:##*	5910,112x32,0,0,11	off
+window	make-starter-front	2	:🤖	0	:##-	2977,112x32,0,0[112x16,0,0,12,112x15,0,17,13]	off
+state	aiii-telegram	4
