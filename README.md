@@ -24,9 +24,7 @@ This repository contains my personal dotfiles, managed using [GNU Stow](https://
 
    ```bash
    cd ~/.dotfiles
-   stow .config
-   stow .tmux.conf.local
-   stow .zshrc
+   stow --adopt .
    ```
 
   This will create symlinks for the specified files and directories in your home directory. Use the --adopt flag to overwrite existing files.
