@@ -1,0 +1,52 @@
+# change window focus within space
+alt - e : yabai -m window --focus south
+alt - i : yabai -m window --focus north
+alt - n : yabai -m window --focus west
+alt - o : yabai -m window --focus east
+
+# Float window
+alt - t : yabai -m window --toggle float
+
+# Moving windows
+ctrl + alt - n : yabai -m window --warp west
+ctrl + alt - e : yabai -m window --warp south
+ctrl + alt - i : yabai -m window --warp north
+ctrl + alt - o : yabai -m window --warp east
+
+# swap window
+cmd + ctrl + shift + alt - n : yabai -m window --swap west
+cmd + ctrl + shift + alt - e : yabai -m window --swap south
+cmd + ctrl + shift + alt - i : yabai -m window --swap north
+cmd + ctrl + shift + alt - o : yabai -m window --swap east
+
+# move window
+cmd + ctrl + shift + alt - left : yabai -m window --warp west
+cmd + ctrl + shift + alt - down : yabai -m window --warp south
+cmd + ctrl + shift + alt - up : yabai -m window --warp north
+cmd + ctrl + shift + alt - right : yabai -m window --warp east
+
+# Moving Workspaces
+ctrl + alt - 1 : yabai -m space --focus 1
+ctrl + alt - 2 : yabai -m space --focus 2
+ctrl + alt - 3 : yabai -m space --focus 3
+ctrl + alt - 4 : yabai -m space --focus 4
+ctrl + alt - 5 : yabai -m space --focus 5
+ctrl + alt - 6 : yabai -m space --focus 6
+ctrl + alt - 7 : yabai -m space --focus 7
+ctrl + alt - 8 : yabai -m space --focus 8
+ctrl + alt - 9 : yabai -m space --focus 9
+
+# Move focus container to workspace
+shift + alt - l : yabai -m window --space last; yabai -m space --focus last
+shift + alt - m : yabai -m window --space prev; yabai -m space --focus prev
+shift + alt - n : yabai -m window --space next; yabai -m space --focus next
+shift + alt - 1 : yabai -m window --space 1; yabai -m space --focus 1
+shift + alt - 2 : yabai -m window --space 2; yabai -m space --focus 2
+shift + alt - 3 : yabai -m window --space 3; yabai -m space --focus 3
+shift + alt - 4 : yabai -m window --space 4; yabai -m space --focus 4
+shift + alt - 5 : yabai -m window --space 5; yabai -m space --focus 5
+shift + alt - 6 : yabai -m window --space 6; yabai -m space --focus 6
+shift + alt - 7 : yabai -m window --space 7; yabai -m space --focus 7
+shift + alt - 8 : yabai -m window --space 8; yabai -m space --focus 8
+shift + alt - 9 : yabai -m window --space 9; yabai -m space --focus 9
+
